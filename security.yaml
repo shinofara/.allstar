@@ -1,4 +1,6 @@
 optConfig:
-  optOutStrategy: true
-  disableRepoOverride: true
+  optOutStrategy: false
+  optInRepos:
+  - cicd
+  disableRepoOverride: false
 action: issue
